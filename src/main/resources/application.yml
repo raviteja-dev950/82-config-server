@@ -1,0 +1,15 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: 82-config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:E:/Java-100-Projects/82-config-server/config-repo
+          fail-on-error: false
+          add-label-locations: false
