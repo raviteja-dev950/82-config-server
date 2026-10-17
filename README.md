@@ -36,7 +36,7 @@ Backend flow interlinked - SMOOTH NO ERRORS - 4 Orders - TIER 8 LAST 73-82 COMPL
 
 ## 🏗 Architecture Diagram – Tier 8 Goal – Architecture diagram in README, each service = repo – Interlinked 78+79+80+81+82 – demo13.jpg – TIER 8 LAST 73-82 COMPLETE
 
-[architecture](screenshots/demo13.jpg)
+![architecture](screenshots/demo13.jpg)
 
 ```text
 TIER 8 – ADVANCED BACKEND – MICROSERVICES – INTERLINKED – 78+79+80+81+82 – CENTRAL CONFIG – 12 Demos + Architecture – SMOOTH NO ERRORS – TIER 8 LAST 73-82 COMPLETE
@@ -255,55 +255,55 @@ curl -X POST http://localhost:8087/api/orders -H "Content-Type: application/json
 
 ### 1. Health Check – Browser – localhost:8888/78-event-driven-order/default – RUNNING - Port 8888 - Central Config Serving 78 8087, 79 8088, 80 8089, 81 8090! – Only Port 8888
 
-[demo1](screenshots/demo1.png)
+![demo1](screenshots/demo1.png)
 
 ### 2. Config Serving 78 – Browser – localhost:8888/78-event-driven-order/default – Config JSON 8087 – file [../config-repo/78-event-driven-order.yml]
 
-[demo2](screenshots/demo2.png)
+![demo2](screenshots/demo2.png)
 
 ### 3. Config Serving 79 – Browser – localhost:8888/79-notification-service/default – Config JSON 8088
 
-[demo3](screenshots/demo3.png)
+![demo3](screenshots/demo3.png)
 
 ### 4. Config Serving 80 – Browser – localhost:8888/80-payment-service/default – Config JSON 8089
 
-[demo4](screenshots/demo4.png)
+![demo4](screenshots/demo4.png)
 
 ### 5. Config Serving 81 – Browser – localhost:8888/81-logging-service/default – Config JSON 8090
 
-[demo5](screenshots/demo5.png)
+![demo5](screenshots/demo5.png)
 
 ### 6. Docker - Kafka Docker - docker-compose up -d - 3/3 Created + Started
 
-[demo6](screenshots/demo6.png)
+![demo6](screenshots/demo6.png)
 
 ### 7. CMD Curl - 4 Orders - curl POST 9999 LAPTOP + 8888 MOUSE + 7777 KEYBOARD + 8888 MOUSE - Order placed 4x
 
-[demo7](screenshots/demo7.png)
+![demo7](screenshots/demo7.png)
 
 ### 8. Event Produced – Console 78 – PRODUCED Event 9999 + 8888 + 7777 + 8888 – Producer proof! – 4 Orders – Config from 82
 
-[demo8](screenshots/demo8.png)
+![demo8](screenshots/demo8.png)
 
 ### 9. Event Consumed – Console 79 – NOTIFICATION SENT 9999 + 8888 + 7777 + 8888 – Parallel proof! – 4 Orders – Config from 82
 
-[demo9](screenshots/demo9.png)
+![demo9](screenshots/demo9.png)
 
 ### 10. Event Consumed+Produced – Console 80 – PAYMENT PROCESSED + PRODUCED Payment 79598d19 + af0eaf1d + 91d23b05 + 79598d19 – 4 Payments – Config from 82
 
-[demo10](screenshots/demo10.png)
+![demo10](screenshots/demo10.png)
 
 ### 11. Event Consumed Dual Topic – Console 81 – LOG SAVED ORDER + LOG SAVED PAYMENT 79598d19 + af0eaf1d + 91d23b05 + 79598d19
 
-[demo11](screenshots/demo11.png)
+![demo11](screenshots/demo11.png)
 
 ### 12. Config Server Central – Console 82 – Adding property source Config resource file [../config-repo/78-event-driven-order.yml] + file [../config-repo/79-notification-service.yml] + file [../config-repo/80-payment-service.yml] + file [../config-repo/81-logging-service.yml] – CENTRAL CONFIG
 
-[demo12](screenshots/demo12.png)
+![demo12](screenshots/demo12.png)
 
 ### 13. Architecture - Tier 8 LAST Advanced Backend Project 82 Config Server - Event-Driven Kafka-Based + Central Config Architecture
 
-[architecture](screenshots/demo13.jpg)
+![architecture](screenshots/demo13.jpg)
 
 ## 🎯 Learning Outcomes – Tier 8 – Advanced Backend – Interlinked 78+79+80+81+82 – CENTRAL CONFIG – 12 Demos + Architecture – TIER 8 LAST 73-82 COMPLETE
 
@@ -318,7 +318,8 @@ curl -X POST http://localhost:8087/api/orders -H "Content-Type: application/json
 - **Add DB – Save logs + Configs – JPA MySQL:** Log table id, timestamp, topic, message, source, level + Config table app, profile, key, value – demo11.png LOG SAVED + demo12.png Adding property source 4 files
 - **Config Server Enhancements – Git Backend + Refresh + Bus:** Git repo for configs instead of file:../config-repo – Spring Cloud Bus + RabbitMQ + @RefreshScope + /actuator/refresh – Auto refresh configs without restart – Encrypt/Decrypt secrets
 
-## 👨💻 Author – 100 Projects Java Full Stack Development and GitHub Profile Roadmap – TIER 8 LAST 73-82 COMPLETE
+## 👨💻 Author – 100 Projects Java Full Stack Development 
+### GitHub Profile Roadmap – TIER 8 LAST 73-82 COMPLETE
 
 ### Vemula Leela Venkata Ravi Teja
 Java Full Stack Developer
